@@ -12,6 +12,11 @@
     background-color: cornflowerblue;
 }
 
+.dgb_img{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+}
+
 .dbg_jumbotron{
     height: 400px;
     color: lightblue;
@@ -26,4 +31,9 @@
 .ham{
     background-color: indigo;
     width: 100px;
+}
+
+.container > img{
+    width: 300px;
+    border-radius: 10px;
 }
