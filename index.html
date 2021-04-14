@@ -109,6 +109,7 @@
             <!-- Titolo -->
             <h2 class="text-center text-uppercase text-black mt-4">Portfolio</h2>
 
+            <!-- Linea Divisoria -->
             <div class="row">
                 <div class="col-lg dbg_col d-flex justify-content-center align-items-center">
                     <span class="liena linea_black">
@@ -137,17 +138,17 @@
 
                 <!-- Linea -->
                 <div class="row">
-                    <div class="col-lg dbg_col d-flex justify-content-center align-items-center">
+                    <div class="col-lg d-flex justify-content-center align-items-center">
                         <span class="liena linea_white">
                             <i class="fa fa-star star text-white" aria-hidden="true"></i>
                         </span>
                     </div>
                 </div>
 
-                <div class="row fw_bold text-white mt-3 mb-3">
+                <div class="row fw_bold text-white ml-5 mr-5 mt-3 mb-3">
 
-                    <!-- Paragrafo 2 -->
-                    <div class="col-lg-5 offset-lg-1 col-sm-12">
+                    <!-- Paragrafo left -->
+                    <div class="col-lg-6 col-sm-12">
                         <p>
                             Freelancer is a free bootstrap theme created by Star Bootstrap. The download includes the
                             complete source files including HTML, CSS and JavaScript as well as optional LESS
@@ -155,15 +156,14 @@
                         </p>
                     </div>
 
-                    <!-- Paragrafo 2 -->
-                    <div class="col-lg-5 col-sm-12">
+                    <!-- Paragrafo right -->
+                    <div class="col-lg-6 col-sm-12">
                         <p>
                             Whether you're a student looking to showcase your work, a professional looking to atttract
                             clients, or a graphic artist looking to share your projects, this template is the perfect
                             starting point!
                         </p>
                     </div>
-                    <div class="offset-lg-1"></div>
                 </div>
 
                 <!-- Download Button -->
@@ -179,32 +179,64 @@
 
         <!-- Contact Me -->
         <div class="container">
-            <div class="row text-center">
+            <!-- Titolo -->
+            <h2 class="text-center text-uppercase text-black mt-4">contact me</h2>
 
-                <!-- Titolo -->
-                <div class="col-lg mt-5 mb-3">
-                    Titolo
+            <!-- Linea Divisoria -->
+            <div class="row">
+                <div class="col-lg dbg_col d-flex justify-content-center align-items-center">
+                    <span class="liena linea_black">
+                        <i class="fa fa-star star bg-white" aria-hidden="true"></i>
+                    </span>
                 </div>
             </div>
 
             <!-- Form -->
-            <div class="row d-flex justify-content-center mb-5">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                            else.</small>
+            <div class="row mb-5 ml-5 mr-5">
+                <form class="col-lg-12">
+
+                    <!-- Nome -->
+                    <div class="form-group row ">
+                        <div class="col-lg-12">
+                            <input type="name"
+                                class="form-control place_black p-0 rounded-0 border-top-0 border-left-0 border-right-0 border_green pb-1"
+                                id="maneil3" placeholder="Name">
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+
+                    <!-- Email -->
+                    <div class="form-group row ">
+                        <div class="col-lg-12">
+                            <input type="email"
+                                class="form-control place_black p-0 rounded-0 border-top-0 border-left-0 border-right-0 border_green pb-1"
+                                id="inputEmail3" placeholder="Email Address">
+                        </div>
                     </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
+                    <!-- Password -->
+                    <div class="form-group row ">
+                        <div class="col-lg-12">
+                            <input type="ph_number"
+                                class="form-control place_black p-0 rounded-0 border-top-0 border-left-0 border-right-0 border_green pb-1"
+                                id="ph_number3" placeholder="Phone Number">
+                        </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                    <!-- Messaggio -->
+                    <div class="form-group row">
+                        <div class="col-lg-12">
+                            <textarea
+                                class="form-control place_black p-0 rounded-0 border-top-0 border-left-0 border-right-0 border_green pb-1"
+                                id="message" rows="5" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Bottone -->
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary bg_avatar border-0">Send</button>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>

@@ -50,6 +50,14 @@
 .fs-5{
     font-size: 5rem;
 }
+
+.border_green{
+    border-bottom: 1px solid #1ABC9C;;
+}
+
+.place_black::-webkit-input-placeholder {
+    color: black;
+  }
 /* /UTILITY */
 
 
