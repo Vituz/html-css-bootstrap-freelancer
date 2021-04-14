@@ -36,12 +36,11 @@
     background-color: grey;
 }
 
-.ham{
-    background-color: indigo;
-    width: 100px;
-}
-
 .container > img{
     width: 300px;
     border-radius: 10px;
+}
+
+.nav-link{
+    font-size: 0.8rem;
 }
