@@ -54,7 +54,7 @@
 
 
 .container > img{
-    width: 300px;
+    width: 280px;
     border-radius: 10px;
 }
 
@@ -75,20 +75,29 @@ h1{
 }
 
 .star{
-    color: white;
     font-size: 1.5rem;
     position: absolute;
     bottom: -15px;
     left: 38%;
-    background-color: #1ABC9C;    
     padding: 0 1.5rem;
 }
 
 .liena{
-    border-bottom: 3px solid white;
     width: 20rem;
     position: relative;
     margin: 1rem 0;
+}
+
+.linea_white{
+    border-bottom: 3px solid white;
+}
+
+.linea_white > .star{
+    background-color: #1ABC9C; 
+}
+
+.linea_black{
+    border-bottom: 3px solid black;
 }
 
 /* /Jumbotron */
